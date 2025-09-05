@@ -3,7 +3,7 @@ A Libft é uma biblioteca em C desenvolvida como parte do currículo da 42, cujo
 Ela serve como uma base para futuros projetos, permitindo trabalhar sem depender diretamente das bibliotecas padrão.
 
 
-🔧 Funcionalidades
+# 🔧 Funcionalidades
 
 A biblioteca inclui:
 
@@ -22,7 +22,7 @@ Funções bônus:
 Implementação de t_list e operações sobre listas.
 
 
-📂 Estrutura do projeto
+# 📂 Estrutura do projeto
 
 ```
 libft/
@@ -39,31 +39,31 @@ Makefile → compila a biblioteca.
 ft_*.c → implementações das funções.
 
 
-⚙️ Compilação
+# ⚙️ Compilação
 
 Para compilar a biblioteca:
-
+```
 make
-
+```
 Isso gera o arquivo libft.a.
 
 Para recompilar do zero:
-
+```
 make re
-
+```
 Para limpar arquivos objeto:
-
+```
 make clean
-
+```
 Para limpar tudo (objetos + lib):
-
+```
 make fclean
+```
 
-
-🖥️ Uso
+# 🖥️ Uso
 
 Inclua o cabeçalho e compile seu código com a libft:
-
+```
 #include "libft.h"
 
 int main(void)
@@ -72,13 +72,13 @@ int main(void)
     printf("len = %zu\n", ft_strlen(str));
     return 0;
 }
-
+```
 Compile com:
-
+```
 gcc main.c -L. -lft
+```
 
-
-✅ Testes
+# ✅ Testes
 
 Você pode testar sua lib usando:
 
@@ -88,7 +88,8 @@ Libft Tester
 
 
 Exemplo:
-
+```
 git clone https://github.com/alelievr/libft-unit-test
 cd libft-unit-test
 make
+```
