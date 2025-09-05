@@ -24,11 +24,13 @@ Implementação de t_list e operações sobre listas.
 
 📂 Estrutura do projeto
 
+```
 libft/
 ├── Makefile
 ├── libft.h
 ├── ft_*.c
 └── ...
+```
 
 libft.h → arquivo de cabeçalho com protótipos.
 
